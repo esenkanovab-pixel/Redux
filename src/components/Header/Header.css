@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Special+Elite&display=swap');
+
+.wh-header {
+  background: linear-gradient(180deg, #1a1a1b 0%, #0d0d0d 100%);
+  color: #d4af37; /* Золото Империума */
+  padding: 20px 0 0 0;
+  font-family: 'Bebas Neue', sans-serif;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.9);
+  position: relative;
+}
+
+.wh-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px 15px 30px;
+}
+
+.wh-logo h1 {
+  margin: 0;
+  letter-spacing: 4px;
+  color: #e6e6e6;
+  text-shadow: 2px 2px 0px #8b0000; /* Кровавая тень */
+}
+
+.wh-logo span {
+  color: #8b0000;
+}
+
+.wh-nav-list {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+.wh-link {
+  text-decoration: none;
+  color: #a0a0a0;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+  border-bottom: 1px solid transparent;
+}
+
+.wh-link:hover {
+  color: #d4af37;
+  text-shadow: 0 0 8px rgba(212, 175, 55, 0.5);
+  border-bottom: 1px solid #8b0000;
+}
+
+.wh-status-panel {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.wh-counter {
+  background: rgba(139, 0, 0, 0.1);
+  border: 1px solid #8b0000;
+  padding: 5px 15px;
+  font-family: 'Special Elite', cursive; /* Шрифт печатной машинки */
+  display: flex;
+  gap: 10px;
+}
+
+.wh-counter .value {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.wh-auth-btn {
+  background: #2a2a2a;
+  border: 1px solid #d4af37;
+  color: #d4af37;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+.wh-auth-btn:hover {
+  background: #d4af37;
+  color: #000;
+}
+
+.wh-border-bottom {
+  height: 4px;
+  background: repeating-linear-gradient(
+    45deg,
+    #d4af37,
+    #d4af37 10px,
+    #000 10px,
+    #000 20px
+  ); /* Опасная разметка на краях */
+}
